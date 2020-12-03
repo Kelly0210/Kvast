@@ -373,11 +373,13 @@ td.price {
   text-decoration: none;
   text-transform: uppercase;
 }
-.btn-buy {
+.btn-buy,
+.send-order {
   background-color: #834700;
   color: #ffffff;
   padding: 20px 25px;
   font-weight: bold;
+  border: none;
 }
 .btn-more-info {
   padding: 19px 20px;
@@ -422,10 +424,7 @@ b {
 .feedback-form-group:nth-child(3) {
   width: 290px;
 }
-#phone,
-#cellphone {
-  width: 290px;
-}
+
 .feedback-form textarea {
   width: 100%;
   height: 120px;
@@ -435,7 +434,7 @@ b {
   margin-right: 170px;
 }
 .feedback-form-group {
-  padding-bottom: 15px;
+  padding-bottom: 10px 0px;
 }
 .feedback-form-group label {
   text-transform: uppercase;
@@ -453,4 +452,10 @@ b {
 }
 .page-footer a {
   text-decoration: none;
+}
+.page-footer .header-logo {
+  margin-left: 38px;
+  margin-right: 120px;
+}
+.page-footer .main-nav {
 }
