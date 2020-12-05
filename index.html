@@ -30,7 +30,7 @@
 				  <div class="container-small clearfix">
 					  
 				  <h2 class="section-title">Новинки</h2>
-				  <div class='cont'>
+				  <div class='cont bottle-left'>
 				  <div class='new-good'>
   				<h3 class='section-title'>Вахтёр</h3>
   	  				<table class='new-info'>
@@ -43,15 +43,15 @@
   						<td>35</td>
   					</tr>
   				</table>
-  				<p>Ржаной хлеб, Вода, Солод, Соль</p>
+  				<p class='ingredients'>Ржаной хлеб, Вода, Солод, Соль</p>
   				<img src="img/bottle-left.jpg" id='bottle-left'>
-  				<p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
+  				<p class="description">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
   				<a href=# class='btn btn-more-info'>Подробнее</a>  <a href=# class='btn btn-buy'>Купить</a> <b>150 Р.</b>
 				  </div>
 				</div>
 				
-				  <div class='cont'>
-				  <div class='new-good'>
+				  <div class='cont bottle-right'>
+				  <div class='new-good '>
   				<h3 class='section-title'>Романтик</h3>
   				<table class='new-info'>
   					<tr>
@@ -63,9 +63,9 @@
   						<td>27</td>
   					</tr>
   				</table>
-  				<p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+  				<p class='ingredients'>Ячменный хлеб, Вода, Солод, Апельсин</p>
   				<img src="img/bottle-right.jpg" id='bottle-right'>
-  				<p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
+  				<p class='description'>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
 				  <a href=# class='btn btn-more-info'>Подробнее</a>  <a href=# class='btn btn-buy'>Купить</a> <b>90 Р.</b>
 				  </div>
 				  </div>
@@ -178,12 +178,12 @@
   			<input type="text" name="fullname" id='fullname'>
 		</div>
 
-		<div class="feedback-form-group">
+		<div class="feedback-form-group feedback-form-group-left-part">
 			  <label for='phone'>Номер телефона:</label>
 			  <input type="text" name="phone" id='phone'>
 		</div>
 
-		<div class="feedback-form-group">
+		<div class="feedback-form-group feedback-form-group-right-part">
 			<label for='cellphone'>Доп. номер:</label>
 			<input type="text" name="cellphone" id='cellphone'>
 		</div>
@@ -220,7 +220,7 @@
 				  <div class='container-big'>
 				<div class='header-top clearfix'>
 				<div class='header-logo'>
-				  <img src='img/logo.png' class='header-logo'>
+				  <img src='img/logo.png' class='header-logo'  width='140' height='76'>
 				</div>
   				<ul class='main-nav clearfix'>
   					<li><a href=#>История</a></li>
@@ -229,15 +229,17 @@
   					<li><a href=#>Где купить</a></li>
 				  </ul>
 				</div>
+				<div class='footer-bottom clearfix'>
   				<div class='footer-social'>
-  					<a href=#>Инстаграм</a>
-  					<a href=#>Фейсбук</a></a>
-  					<a href=#>Вконтакте</a>
+  					<a href=# class='social-btn social-btn-insta'>Инстаграм</a>
+  					<a href=# class='social-btn social-btn-fb'>Фейсбук</a></a>
+  					<a href=# class='social-btn social-btn-vk'>Вконтакте</a>
   				</div>
   				<p>При перепечатке материалов ссылка на сайт обязательна!</p>
   				<div class='footer-copyright'>
-  					<span><img src='img/htmlacademy.png'></span>
+  					<span class='logo-inline social-btn'><img src='img/htmlacademy.png'> </span>
   					<b>Разработчик: </b><a href='https://htmlacademy.ru'>HTML Academy</a>
+				  </div>
 				  </div>
 			</div>
   			</div>
